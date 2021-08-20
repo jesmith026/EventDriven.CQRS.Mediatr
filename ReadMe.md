@@ -1,6 +1,6 @@
 # EventDriven.CQRS
 
-An event-driven approach to Command Query Responsibility Segregation.
+A fork of [EventDriven.CQRS](https://github.com/event-driven-dotnet/EventDriven.CQRS) that incorporates [MediatR](https://github.com/jbogard/MediatR).
 
 ## Prerequisites
 - [.NET Core SDK](https://dotnet.microsoft.com/download) (5.0 or greater)
@@ -14,7 +14,7 @@ An event-driven approach to Command Query Responsibility Segregation.
   - [Initialize Dapr](https://docs.dapr.io/getting-started/install-dapr-selfhost/)
 
 ## Packages
-- [EventDriven.CQRS](https://www.nuget.org/packages/EventDriven.CQRS)
+- [EventDriven.CQRS.MediatR.Abstractions](https://www.nuget.org/packages/EventDriven.CQRS.MediatR.Abstractions)
 
 ## Introduction
 

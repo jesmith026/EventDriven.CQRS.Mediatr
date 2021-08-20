@@ -8,21 +8,21 @@
     <Authors>Tony Sneed</Authors>
     <Description>An event-driven approach to Command Query Responsibility Segregation.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/event-driven-dotnet/EventDriven.CQRS</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/event-driven-dotnet/EventDriven.CQRS.MediatR</PackageProjectUrl>
     <PackageIcon>eda-logo.jpeg</PackageIcon>
     <RepositoryUrl>https://github.com/event-driven-dotnet/EventDriven.CQRS.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>ddd cqrs event-driven event-driven-architecture</PackageTags>
-    <PackageReleaseNotes>https://github.com/event-driven-dotnet/EventDriven.CQRS/releases/tag/v1.0.0-beta2</PackageReleaseNotes>
-    <PackageId>EventDriven.CQRS</PackageId>
+    <PackageReleaseNotes>https://github.com/event-driven-dotnet/EventDriven.CQRS.MediatR/releases/tag/v1.0.0-beta2</PackageReleaseNotes>
+    <PackageId>EventDriven.CQRS.MediatR.Abstractions</PackageId>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-    <DocumentationFile>bin\Debug\net5.0\EventDriven.CQRS.Abstractions.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\net5.0\EventDriven.CQRS.MediatR.Abstractions.xml</DocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-    <DocumentationFile>bin\Release\net5.0\EventDriven.CQRS.Abstractions.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\net5.0\EventDriven.CQRS.MediatR.Abstractions.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
