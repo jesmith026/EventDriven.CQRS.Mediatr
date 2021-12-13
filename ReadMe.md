@@ -3,7 +3,7 @@
 A fork of [EventDriven.CQRS](https://github.com/event-driven-dotnet/EventDriven.CQRS) that incorporates [MediatR](https://github.com/jbogard/MediatR).
 
 ## Prerequisites
-- [.NET Core SDK](https://dotnet.microsoft.com/download) (5.0 or greater)
+- [.NET Core SDK](https://dotnet.microsoft.com/download) (6.0 or greater)
 - [Docker Desktop](https://www.docker.com/products/docker-desktop)
 - MongoDB Docker: `docker run --name mongo -d -p 27017:27017 -v /tmp/mongo/data:/data/db mongo`
 - [MongoDB Client](https://robomongo.org/download):
